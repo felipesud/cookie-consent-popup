@@ -102,3 +102,15 @@ html{
     color: #FBB45F;
     
 }
+
+.cookies-box .close-btn{
+    position: absolute;
+    top: -2px; right: 12px;
+    font-size: 40px;
+    color: #999;
+    cursor: pointer;
+}
+
+.cookies-box .close-btn:hover{
+    color: #333;
+}
