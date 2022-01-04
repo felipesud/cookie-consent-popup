@@ -55,6 +55,10 @@ html{
     padding: 30px;
 }
 
+.cookies-box.active{
+    left: 20px;
+}
+
 .cookies-box img{
     height: 110px;
     animation: image 10s linear infinite;
