@@ -41,3 +41,20 @@ html{
     box-shadow: none;
     transform: scale(.9);
 }
+
+.cookies-box{
+    width: 350px;
+    position: fixed;
+    bottom: 100px; left: 20px;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.2);
+    text-align: center;
+    padding: 30px;
+}
+
+.cookies-box img{
+    height: 110px;
+    animation: image 10s linear infinite;
+}
