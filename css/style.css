@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-transform: none;
     outline: none; border: none;
+    text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
 }
@@ -57,4 +58,47 @@ html{
 .cookies-box img{
     height: 110px;
     animation: image 10s linear infinite;
+}
+
+@keyframes image{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.cookies-box h3{
+    color: #333;
+    font-size: 23px;
+    padding: 5px 0;
+}
+
+.cookies-box p{
+    color: #666;
+    font-size: 13px;
+    padding: 5px 0;
+    line-height: 1.8;
+}
+
+.cookies-box .accept{
+    background: #FBB45F;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 15px 0;
+    padding: 10px; 
+}
+
+.cookies-box .accept:hover{
+    letter-spacing: 1px;
+    opacity: .8;
+}
+
+.cookies-box .setting{
+    color: #999;
+
+}
+
+.cookies-box .setting:hover{
+    color: #FBB45F;
+    
 }
