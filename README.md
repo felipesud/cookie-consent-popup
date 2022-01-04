@@ -1,2 +1,3 @@
-# cookie-consent-popup
-Cookies Consent Popup Box UI Design Using HTML - CSS - JavaScript
+# Cookies Consent Popup Box
+Create a cookie consent banner UI design for your website using html css and vanilla javascript.
+
