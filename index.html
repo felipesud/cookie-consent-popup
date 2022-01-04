@@ -26,6 +26,14 @@
 </div>
     
 
-    <script src="./js/script.js"></script>
+    <script>
+        document.querySelector('.open-btn').onclick = () =>{
+            document.querySelector('.cookies-box').classList.add('active');
+        }
+
+        document.querySelector('.close-btn').onclick = () =>{
+            document.querySelector('.cookies-box').classList.remove('active');
+        }
+    </script>
 </body>
 </html>
