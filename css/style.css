@@ -46,7 +46,7 @@ html{
 .cookies-box{
     width: 350px;
     position: fixed;
-    bottom: 100px; left: 20px;
+    bottom: 100px; left: -400px;
     z-index: 1000;
     background: #fff;
     border-radius: 10px;
